@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    height: 400px;
+    margin: 50px auto;
+    background-color: lightgrey;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container img {
+    height: 150px;
+    border-radius: 10px;
+}
+.container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+}
+ul {
+    list-style: none;
+}
